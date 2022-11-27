@@ -1,0 +1,20 @@
+body{
+  background: #efead0;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: #0B0A1C;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: #0B0A1C;
+}
+i {
+  color: #39356F;
+  font-size: 22px;
+}
+img {
+  width: 300px;
+  margin: 0 10px 20px 10px;
+}
