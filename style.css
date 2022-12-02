@@ -103,23 +103,20 @@ i {
 .about-me h1 {
   font-size: 64px;
   font-weight: 700;
+  line-height: 1.2;
 }
 .about-me .heading-paragraf {
   font-size: 18px;
   font-weight: 700;
+  line-height: 1.5;
 }
 .about-me .main-text {
   font-size: 16px;
   font-weight: 400;
-}
+  line-height: 2;
+  }
 .about-me img {
-  width: 600px;
   border-radius: 20px;
-  margin-bottom: 30px;
-}
-.about-me .btn a {
-  margin-left: 0px;
-  font-size: 18px;
 }
 .contact-in-about {
   font-size: 64px;
@@ -152,5 +149,8 @@ i {
   }
   .hero {
     padding: 20px;
+  }
+  .about-me h1 {font-size: 44px;
+   
   }
 }
