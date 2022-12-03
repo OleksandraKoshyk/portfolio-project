@@ -114,7 +114,7 @@ i {
   font-size: 16px;
   font-weight: 400;
   line-height: 2;
-  }
+}
 .about-me img {
   border-radius: 20px;
 }
@@ -140,7 +140,23 @@ i {
   padding: 10px 200px;
   margin-top: 40px;
 }
-@media (max-width: 560px) {
+.works-page-content-container h1 {
+  font-size: 64px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.works-page-content-container h5 {
+  font-family: var(--default-font);
+  font-size: 24px;
+}
+.works-page-content-container img {
+  border-radius: 20px;
+}
+.works-page-content-container p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+@media (max-width: 760px) {
   .hero h1 {
     font-size: 44px;
   }
@@ -150,7 +166,16 @@ i {
   .hero {
     padding: 20px;
   }
-  .about-me h1 {font-size: 44px;
-   
+  .about-me h1 {
+    font-size: 44px;
+  }
+  .works-page-content-container h1 {
+    font-size: 44px;
+    line-height: 1;
+    font-weight: 700;
+  }
+  .works-page-content-container img {
+    display: block;
+    margin: 0 auto;
   }
 }
