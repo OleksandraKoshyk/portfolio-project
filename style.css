@@ -12,7 +12,8 @@ body {
   line-height: 1.5;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font);
   text-align: center;
   color: var(--text-dark-color);
