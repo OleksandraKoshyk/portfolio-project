@@ -50,15 +50,21 @@ i {
   font-size: 26px;
 }
 .navbar {
-  color: var(--text-dark-color);
   font-family: var(--heading-font);
   font-weight: 700;
+}
+.navbar-brand {
+  color: var(--text-dark-color);
 }
 .navbar img {
   border-radius: 100%;
   width: 80px;
   margin: 10px;
 }
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
+}
+
 .contact-section {
   padding: 10px 80px;
   margin-top: 10px;
@@ -157,6 +163,7 @@ i {
   font-size: 14px;
   line-height: 1.5;
 }
+
 @media (max-width: 760px) {
   .hero h1 {
     font-size: 44px;
