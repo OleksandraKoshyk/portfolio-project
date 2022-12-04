@@ -48,6 +48,8 @@ p {
 i {
   color: var(--branding-color);
   font-size: 26px;
+  background-color: var(--background-color);
+  border-radius: 100%;
 }
 .navbar {
   font-family: var(--heading-font);
@@ -63,11 +65,6 @@ i {
 }
 .navbar-nav .nav-link.active {
   color: var(--branding-color);
-}
-
-.contact-section {
-  padding: 10px 80px;
-  margin-top: 10px;
 }
 .dark-btn {
   background: #3c3566;
@@ -136,6 +133,7 @@ i {
   font-size: 18px;
   font-weight: 400;
 }
+
 .mail-link {
   display: block;
   margin: auto 0px;
@@ -146,6 +144,15 @@ i {
 .contact-section-about {
   padding: 10px 200px;
   margin-top: 40px;
+  margin-bottom: 20px;
+}
+.contact-section-about i {
+  padding: 10px;
+  transition: all 100ms ease-in-out;
+}
+.contact-section-about i:hover {
+  color: var(--background-color);
+  background-color: var(--branding-color);
 }
 .works-page-content-container h1 {
   font-size: 64px;
@@ -186,4 +193,5 @@ i {
     display: block;
     margin: 0 auto;
   }
+  .contact-section-about{padding: 0;}
 }
