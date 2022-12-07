@@ -6,16 +6,12 @@
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
-html {
-  overflow-x: hidden;
-}
 
 body {
-  overflow-x: hidden;
   font-family: var(--default-font);
-  position: relative;
   color: var(--text-dark-color);
   line-height: 1.5;
+  position: relative;
 }
 h1,
 h2,
@@ -178,6 +174,12 @@ i {
 }
 
 @media (max-width: 760px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
   .hero h1 {
     font-size: 44px;
   }
